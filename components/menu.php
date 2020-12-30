@@ -16,7 +16,7 @@ $menu = <<<HTML
         <a href="https://wastedarchive.bigcartel.com/" class="text-grey">Shop</a>
       </li>
       <li class="nav-item">
-        <a href="https://www.youtube.com/channel/UC-BOx6ENuPJVIgXJG91kxfw" class="text-grey">Video</a>
+        <a href="/video" class="text-grey">Video</a>
       </li>
       <li class="nav-item">
         <a href="/collaboration" class="text-grey">Collaboration</a>
