@@ -52,10 +52,7 @@ include "./components/footer.php";
           <img src="./Assets/logo-icon-white.png" width="200" height="200" />
         </div>
       </div>
-    </div>
 
-    <!-- description -->
-    <div class="container">
       <div class="px-0 px-md-5">
         <h6 class="text-center">
           Wasted Archives®️<br />
@@ -87,10 +84,7 @@ include "./components/footer.php";
           Sign up for the newsletter for updates on other print and Infi releases. -->
         </h6>
       </div>
-    </div>
 
-    <!-- useless logo -->
-    <div class="container">
       <div class="w-100">
         <img src="./Assets/logo-master.png" class="w-100" alt="LOGO MASTER" />
       </div>
