@@ -22,12 +22,6 @@ include "./components/footer.php";
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="icon" href="logo_icon.ico">
-
-  <style>
-    .menu ul li:nth-child(6) {
-      border-bottom: 3px solid #ccc;
-    }
-  </style>
 </head>
 
 <body>
@@ -90,12 +84,21 @@ include "./components/footer.php";
       </div>
     </div>
 
-    <?php echo $footer ?>
+    <?php echo $footer;
+    echo $_SERVER['REQUEST_URI'];
+    ?>
 
   </div>
 </body>
 
 <script src="./js/index.js"></script>
+
+<script>
+  const currentHost = "/wasted-archive/about.php";
+  const index = 5;
+</script>
+<script src="js/activeNav.js"></script>
+
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
 

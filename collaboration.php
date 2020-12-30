@@ -82,6 +82,11 @@ include "./components/footer.php";
 </body>
 
 <script src="./js/index.js"></script>
+
+<script>
+  const currentHost = "/collaboration";
+  const index = 4;
+</script>
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
 

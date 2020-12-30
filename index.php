@@ -21,12 +21,6 @@ include "./components/footer.php";
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="icon" href="logo_icon.ico">
-
-  <style>
-    .menu ul li:nth-child(1) {
-      border-bottom: 3px solid #ccc;
-    }
-  </style>
 </head>
 
 <body>
@@ -88,6 +82,12 @@ include "./components/footer.php";
 </body>
 
 <script src="./js/index.js"></script>
+
+<script>
+  const currentHost = "/";
+  const index = 0;
+</script>
+<script src="js/activeNav.js"></script>
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
 

@@ -5,7 +5,7 @@ $menu = <<<HTML
 <!-- menu -->
 <div class="container my-3">
   <div class="menu d-none d-md-block">
-    <ul class="navbar-nav d-flex flex-row justify-content-center">
+    <ul class="navbar-nav d-flex flex-row justify-content-center" id="menuList">
       <li class="nav-item">
         <a href="/" class="text-grey">Home</a>
       </li>
