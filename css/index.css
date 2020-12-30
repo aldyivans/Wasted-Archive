@@ -1,0 +1,109 @@
+body {
+  background-color: #131313;
+  background-image: url('../Assets/bg.jpg');
+  background-size: 100%;
+  background-blend-mode: difference;
+  color: #fff !important;
+}
+
+.text-grey {
+  color: #ccc;
+}
+
+.logo img {
+  height: 25px;
+}
+
+.about h6 {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.logo-spin {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.socmed svg {
+  width: 24px;
+  margin: 0 18px;
+  color: #ccc;
+}
+
+.socmed {
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 28px;
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  color: #666999;
+}
+
+.burger-menu {
+  width: 30px;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  height: 3px;
+  width: 100%;
+  margin: 3px 0;
+  background-color: #ccc;
+}
+
+/* .burger-menu div:last-child {
+  width: 25px;
+} */
+
+#dropdownList {
+  height: 0px;
+  overflow: hidden;
+  text-align: right;
+  transition: height .5s ease;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-list li {
+  padding: 10px 0;
+  border-bottom: 2px solid #ffffff;
+}
+
+.cart {
+  width: 22px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 14px;
+}
+
+.icon {
+  width: 100px;
+}
+
+.line {
+  height: 3px;
+  width: 100%;
+  background-color: #ccc;
+}

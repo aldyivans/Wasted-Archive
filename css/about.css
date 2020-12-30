@@ -1,0 +1,14 @@
+.photo {
+  width: 75%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo img {
+  position: absolute;
+  width: 150%;
+  top: -15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
